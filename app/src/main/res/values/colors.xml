@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+    <color name="colorPrimary">#17202A</color>
+    <color name="colorPrimaryDark">#17202A</color>
+    <color name="textColorPrimary">#FF4081</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#3498DB</color>
+    <color name="fragmentcolor">#212F3D</color>
+    <color name="button">#2E86C1</color>
+    <color name="button1">#F4D03F</color>
+    <!--Adding colors-->
+    <color name="splashcolor">#196F3D</color>
+
+    <color name="bgcolor">#000000</color>
+    <color name="bglight">#2C3E50</color>
+    <color name="hinttextcolor">#B2BABB</color>
+    <color name="btncolor">#148F77</color>
+    <color name="textwhite">#FDFEFE</color>
+    <color name="textclr">#B2BABB</color>
+    <color name="highlist">#F4D03F</color>
+    <color name="btn">#FF4081</color>
+    <color name="linkcolor">#3498DB</color>
+
+
+
+
+        <color name="background_color">#009688</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#1B2631</color>
+        <color name="white_greyish">#EEEEEE</color>
+        <color name="button_selectorcolor">#F4D03F</color>
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:content="PhoneAuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp"
+        android:background="@drawable/bgdesign">
+
+        <EditText
+            android:text="+91"
+            android:id="@+id/field_phone_number"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hinttextcolor"
+            android:textColor="@color/textwhite"
+            android:inputType="phone"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter OTP"
+            android:textColor="@color/textwhite"
+            android:id="@+id/field_verification_code"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hinttextcolor"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_start_verification"
+            android:text="send OTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textwhite"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/strokedesign"/>
+
+        <Button
+            android:text="verify OTP"
+            android:id="@+id/button_verify_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textwhite"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/strokedesign"/>
+
+        <Button
+            android:text="resend otp"
+            android:id="@+id/button_resend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textwhite"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/strokedesign"/>
+
+        <Button
+            android:visibility="gone"
+            android:text="Gsign"
+            android:id="@+id/button_gsign"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

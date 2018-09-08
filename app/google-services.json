@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497239294480",
+    "firebase_url": "https://chattisgarhschemes.firebaseio.com",
+    "project_id": "chattisgarhschemes",
+    "storage_bucket": "chattisgarhschemes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497239294480:android:cbde9a1b97d7f83e",
+        "android_client_info": {
+          "package_name": "com.example.sonushahuji.a36ghrd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497239294480-9oh00u0h6nqbjq311d69dojlc1q6pem6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sonushahuji.a36ghrd",
+            "certificate_hash": "71e12e6e03cdfb708e774663210c83ac17baf382"
+          }
+        },
+        {
+          "client_id": "497239294480-47i61fib53gf2blfrpgakago3n9ak8i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0DWZCEYaRVRkOGfQWtEAfDlx1H6KVAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497239294480-47i61fib53gf2blfrpgakago3n9ak8i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

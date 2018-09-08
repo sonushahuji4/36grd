@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        android:gravity="center"
+        android:background="@drawable/bgdesign">
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="Feedback"
+            android:inputType="textLongMessage"
+            android:textColorHint="@color/hinttextcolor"
+            android:textColor="@color/textwhite"/>
+        <ImageView
+            android:id="@+id/sendfeedbackbtn"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/feedicon"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

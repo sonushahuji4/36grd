@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="horizontal"
+    android:id="@+id/list_department"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/strokedesign">
+
+
+<ImageView android:id="@+id/getDepartment_photo"
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_60sdp"
+    android:layout_gravity="center_horizontal"
+    android:src="@mipmap/ic_launcher_round"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<LinearLayout
+
+    android:layout_marginLeft="@dimen/_16sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical"
+    android:background="@drawable/carddesign">
+
+<TextView
+    android:id="@+id/department_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Department Name"
+    android:textSize="@dimen/_12sdp"
+    android:layout_gravity="center"
+    android:textColor="@color/textwhite"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/getDepartment_description"
+    android:textColor="#808B96"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="@dimen/_10sdp"
+    android:textStyle="italic"
+    android:layout_margin="@dimen/_5sdp"
+    android:text="Department Description"/>
+
+
+    <Button
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:layout_gravity="bottom|end"
+        android:padding="@dimen/_5sdp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:background="@drawable/strokedesign"/>
+
+</LinearLayout>
+</LinearLayout>

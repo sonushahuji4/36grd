@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Registeration">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgdesign">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/textwhite"
+            android:hint="Registeration Form"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/edittextmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Contact NO."
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+
+                <EditText
+                    android:id="@+id/edittextfirstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Firstname"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/edittextsurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Surname"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Date Of Birth"
+                    android:layout_margin="5dp"
+
+                    android:textColor="@color/textwhite"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/gender_options"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:textColorHint="@color/hinttextcolor"
+                            android:hint="Male"/>
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:textColorHint="@color/hinttextcolor"
+                            android:hint="Female"/>
+
+                        <RadioButton
+                            android:id="@+id/other"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:textColorHint="@color/hinttextcolor"
+                            android:hint="Others"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edittextaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Address"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/edittextcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="City"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/edittextpincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Pincode"
+                    android:layout_margin="5dp"
+                    android:inputType="number"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/edittextemailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Email-ID"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <!--<EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Contact No"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>-->
+
+                <Spinner
+                    android:id="@+id/edittextcaste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Caste"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <Spinner
+                    android:id="@+id/edittextreligion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Religion"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <Spinner
+                    android:id="@+id/edittextoccupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Occupation"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+                <EditText
+                    android:id="@+id/edittextfamily"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="No. Of Family Members"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+
+                <EditText
+                    android:id="@+id/edittextearning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="No. Of Earnings"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+
+                <EditText
+                    android:id="@+id/edittextsalary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Salary"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textwhite"/>
+
+
+                <EditText
+                    android:id="@+id/edittextpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Password"
+                    android:layout_margin="5dp"
+                    android:inputType="textPassword"
+                    android:textColor="@color/textwhite"/>
+
+
+                <EditText
+                    android:id="@+id/edittextconfirmpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/hinttextcolor"
+                    android:hint="Confirm Password"
+                    android:layout_margin="5dp"
+                    android:inputType="textPassword"
+                    android:textColor="@color/textwhite"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/registeruser"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColorHighlight="@color/highlist"
+                        android:textColor="@color/textwhite"
+                        android:background="@drawable/btnldesign"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

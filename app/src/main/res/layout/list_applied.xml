@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:padding="@dimen/_8sdp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_margin="@dimen/_4sdp"
+                android:id="@+id/appleid_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applied ID"
+                android:textStyle="bold"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="#ECF0F1"/>
+
+            <TextView
+                android:id="@+id/deptname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department name"
+                android:textSize="@dimen/_12sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_below="@+id/appleid_id"
+                android:textColor="@color/textwhite"/>
+
+
+            <TextView
+                android:id="@+id/appleid_scheme_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheme Name"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:textColor="@color/textwhite"
+                android:layout_below="@+id/deptname"/>
+            <TextView
+                android:id="@+id/appleid_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/textwhite"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_4sdp"
+                android:textSize="@dimen/_12sdp"
+                android:layout_below="@+id/appleid_scheme_name"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/applicationstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Application Status"
+                android:textSize="@dimen/_12sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_below="@+id/appleid_status"
+                android:textColor="#1D8348"/>
+
+            <TextView
+                android:id="@+id/applied_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_below="@+id/applicationstatus"
+                android:textSize="@dimen/_10sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:textColor="@color/textwhite"/>
+
+            <TextView
+                android:id="@+id/applied_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:layout_margin="@dimen/_4sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textwhite"
+                android:layout_below="@+id/applied_date"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
